@@ -1,0 +1,178 @@
+body{
+    margin: left 10px;
+}
+#div1{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(35, 35, 192);
+
+
+}
+/*horizontal-list*/
+#horizontal-list{
+    list-style: none;
+
+}
+#horizontal-list li{
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+    color: azure;
+}
+.horizontal-space{
+    margin-left: 50%;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.horizontal-space li a{
+    color: white;
+    text-decoration: none;
+}
+.horizontal-space li a:hover{
+    color: lightcyan;
+    border-bottom:  1px solid white;;
+}
+
+.class1{
+    padding-top: 15px;
+    margin-left: 10%;
+    color: azure;
+    font-size: 30px;
+}
+
+#header-image{
+    height: 20rem;
+    width: 100%;
+    background-image: url("city image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 350px;
+    margin-top: -25px;
+
+
+}
+#main-heading-content{
+    font-size: 30px;
+}
+#img-content{
+    color: azure;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 160px;
+    font-size: 30px;
+}
+#page-contant{
+    height: auto;
+
+   display: flex;
+
+}
+#div2{
+    margin-left: 40px;
+    text-align: justify;
+}
+#earning-tools{
+    margin-top: 60px;
+
+}
+/*subscribe-form*/
+
+main{
+    width: 70%;
+    display: inline-block;
+}
+aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgb(239, 239, 234);
+}
+/*.widget{
+    border-top: 4px solid;
+}*/
+.widget input {
+    display: block;
+    background-color: rgb(208, 213, 216);
+    color: black;
+
+}
+button[type="submit"] {
+
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+
+}
+#subscribe-form{
+padding-left: 20px;
+}
+
+/*blog section*/
+.blog-heading{
+    margin-left: 65px;
+
+}
+
+#blog-container{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(245, 244, 244);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.blog-head{
+    letter-spacing: 0.5rem;
+
+}
+#blog-container div{
+    height: 400px;
+    width: 325px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#blog-content1{
+    background-position:center;
+}
+#blog-content2{
+    background-position: center;
+    background-size: 400px 325px;
+
+
+}
+
+.content-size{
+    font-size: 20px;
+}
+
+/*footer*/
+#footer-div{
+    height:30%;
+    width: 100%;
+    background-color: rgb(58, 112, 112);
+}
+.footer-content{
+    color: aqua;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+#span1{
+    color: rgb(224, 220, 220);
+}
+#first-hr{
+    margin-left: 100px;
+    margin-right: 100px;
+   margin-top: -22px;
+
+}
+#last-contant{
+    color: azure;
+    margin-left: 100px;
+    margin-top: -8px;
+
+}
